@@ -1,0 +1,2 @@
+<?php if ($block->getShareSiteName()): ?><meta property="og:site_name" content="<?php echo $block->stripTags($block->getSiteName()); ?>" /><?php endif; ?>
+<?php if ($block->getShareStockAvailability()): ?><meta property="og:availability" content="<?php echo $block->stripTags($block->getProduct()->isAvailable() ? 'in stock' : 'out of stock'); ?>" /><?php endif; ?>

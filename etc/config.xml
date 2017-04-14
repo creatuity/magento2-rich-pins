@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <richpins>
+            <general>
+                <enabled>1</enabled>
+                <method>tags</method>
+                <button_exists>1</button_exists>
+                <generate_automatically>0</generate_automatically>
+                <share_site_name>0</share_site_name>
+                <share_product_availability>0</share_product_availability>
+            </general>
+        </richpins>
+    </default>
+</config>

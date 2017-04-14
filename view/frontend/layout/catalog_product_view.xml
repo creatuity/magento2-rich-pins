@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="product.info">
+            <block class="Creatuity\RichPins\Block\Pinterest\Button" name="pinterest.button.info" as="pinterest.button" />
+        </referenceBlock>
+        <referenceContainer name="product.info.extrahint">
+            <block class="Creatuity\RichPins\Block\Pinterest\Button" name="pinterest.button.extrahint" as="pinterest.button" ifconfig="richpins/general/generate_automatically" />
+        </referenceContainer>
+        <referenceContainer name="before_body_end">
+            <block class="Creatuity\RichPins\Block\Pinterest\Script" name="pinterest.script" />
+        </referenceContainer>
+    </body>
+</page>
